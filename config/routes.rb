@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # HTTPメソッド 'URL' にアクセスしたときに => 'コントローラの#アクションを実行'
   # '/'= [~.com] でTopページが表示
-  get '/' => 'homes#top'
+  root :to => 'homes#top'
   get 'books' => 'books#index'
   post 'books' => 'books#create'
   get 'books/:id' => 'books#show', as: 'book'

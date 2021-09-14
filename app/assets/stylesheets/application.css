@@ -50,7 +50,7 @@ thead {
 }
 
 th {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 div.field, div.actions {
@@ -58,12 +58,11 @@ div.field, div.actions {
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 td {
-    padding-bottom: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-
